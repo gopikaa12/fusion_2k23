@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(129, 129, 148);
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    font-style: italic;
+    background-color:rgb(95, 91, 96);
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+    position: relative;
+}
+.navbar h4{
+    color: rgb(65, 17, 17);
+}
+.heading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background:rgb(95, 91, 96);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+button{
+    padding: 7px;
+    margin: 7px;
+    background-color: rgb(129, 129, 148);
+    color: rgb(52, 13, 104);
+    border-radius: 7px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.card_image{
+    background-color:aqua;
+    height:250px;
+    margin-bottom:15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+.poster{
+    background-image: url(images/poster.png);
+    background-position:center;
+}
+.paper{
+    background-image: url(images/paper.jpg);
+    background-position:center;
+}
+.quiz{
+    background-image: url(images/quiz.jpg);
+    background-position:center;
+}
+.photo{
+    background-image: url(images/photography.png);
+    background-position:center;
+}
+.lecturer{
+    display: flex;
+    gap:25px;
+    background-color: rgb(95, 91, 96);
+}
+.student{
+    background-color:rgb(95, 91, 96);
+}
+.footer{
+    background-color: rgb(44, 39, 39);
+    display: flex;
+}
+.social_links ul{
+    display: flex;
+    gap: 15px;  
+   margin-left:250%;
+}
+.links{
+    display: flex;
+}
